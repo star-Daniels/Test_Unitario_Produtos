@@ -11,7 +11,7 @@ import java.nio.file.StandardCopyOption;
 import java.util.Arrays;
 
 public class ProductService {
-    private String filePath = "C:\\IMG";
+    private String filePath = "C:\\BdProduct\\product";
 
     private String getFileExtension(Path path) {
         String filename = path.getFileName().toString();
