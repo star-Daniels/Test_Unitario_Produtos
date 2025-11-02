@@ -1,8 +1,6 @@
 import com.example.applications.ProductApplication;
 import com.example.entities.Product;
 import com.example.services.ProductService;
-import org.junit.jupiter.api.Assertions;
-import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
 import org.mockito.InjectMocks;
@@ -11,7 +9,7 @@ import org.mockito.Mockito;
 import org.mockito.junit.jupiter.MockitoExtension;
 
 @ExtendWith(MockitoExtension.class)
-public class ProductServiceTest {
+public class ProductApplicationTest {
     Product product;
     @InjectMocks
     ProductApplication productApplication;
